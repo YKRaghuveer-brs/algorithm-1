@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Kth Largest Element</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Find Kth Largest Element in an Array</h1>
+        
+        <div class="card p-4 mt-4">
+            <form id="kthLargestForm">
+                <div class="form-group">
+                    <label for="arrayInput">Enter Array (comma-separated):</label>
+                    <input type="text" class="form-control" id="arrayInput" placeholder="e.g., 3, 2, 3, 1, 2, 4, 5, 5, 6" required>
+                </div>
+                <div class="form-group">
+                    <label for="kInput">Enter K value:</label>
+                    <input type="number" class="form-control" id="kInput" min="1" placeholder="e.g., 4" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Find Kth Largest</button>
+            </form>
+
+            <div class="result mt-4">
+                <h3 id="resultText" class="text-center"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
